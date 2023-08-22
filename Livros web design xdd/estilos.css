@@ -1,0 +1,43 @@
+* {
+    margin: 0; /* zerar a margem de todos os elementos */
+    padding: 0; /* zerar o espaçamento interno de todos os elementos */
+    box-sizing: border-box; /* incluir padding e borda no cálculo do tamanho do elemento */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #535353;
+}
+header {
+    background-color: #333; /* cor de fundo */
+    color: #fff; /* cor do texto */
+    text-align: center; /* alinhamento centralizado */
+    padding-top: 20px; /* espaçamento interno superior */
+    padding-bottom: 20px; /* espaçamento interno inferior */
+    padding-left: 20px; /* espaçamento interno esquerdo */
+    padding-right: 20px; /* espaçamento interno direito */
+}
+header {
+    background-color: #ff0000;
+    color: #006eff;
+    text-align: center;
+    
+    /* assim (cima, baixo, esquerda, direita) */
+    padding: 20px 20px 20px 20px;
+    /* ou 20px em todas as direções */
+    padding: 20px;
+}
+nav ul {
+    list-style: none; /* Remove o estilo da lista */
+}
+
+nav li {
+    display: inline; /* Deixa os itens da lista em linha */
+    margin-right: 20px; /* Adiciona um espaçamento de 20px entre os itens da lista */
+}
+
+nav a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #ffffff; /* Cor do texto */
+}
+
