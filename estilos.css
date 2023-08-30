@@ -29,9 +29,18 @@ nav ul {
 
 nav li {
     display: inline; 
-    margin-right: 20px; 
+    margin-right: 20px;
 }
-
+#nav ul#menu li.active {
+    background-color: darkred;
+    margin-bottom:5px;
+    border-radius:10px;
+}
+#nav ul#menu li:hover {
+    background-color: darkred;
+    margin-bottom:5px;
+    border-radius:10px;
+}
 nav a {
     text-decoration: none;
     font-weight: bold; 
