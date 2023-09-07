@@ -13,7 +13,7 @@
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="#">Livros</a></li>
-                <li><a href="#">Autores></a></li>
+                <li><a href="#">Autores</a></li>
                 <li><a href="#">Contato</a></li>
                 <li><a href="cadastro.html">Cadastro</a></li>
             </ul>
@@ -49,12 +49,20 @@
                             <label for="ingles">Inglês</label>
                         </div>
                         <div class="input-check">
-                            <input type="checkbox" name="idioma" value="Inglês" id="ingles">
-                            <label for="ingles">Inglês</label>
-                        </div>
-                        <div class="input-check">
                             <input type="checkbox" name="idioma" value="Espanhol" id="espanhol">
                             <label for="espanhol">Espanhol</label>
+                        </div>
+                        <div class="input-container">
+                            <label for="ibsn">IBSN</label>
+                            <input type="text" name="ibsn" id="ibsn" placeholder="IBSN do livro" pattern="\d{3}-\d{10}" required>
+                        </div>
+                        <div class="input-container">
+                            <label for="ano">Ano</label>
+                            <input type="number" name="ano" id="ano" placeholder="Ano de publicação" required>
+                        </div>
+                        <div class="input-container">
+                            <label for="paginas">Páginas</label>
+                            <input type="number" name="paginas" id="paginas" placeholder="Número de páginas" required>
                         </div>
                     </div>
                 </fieldset>
