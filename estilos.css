@@ -1,21 +1,24 @@
 * {
-    margin: 0; 
-    padding: 0; 
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #cfe4ff;
 }
+
 header {
-    background-color: #333; 
-    color: #fff; 
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    padding-top: 20px; 
+    padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 20px; 
+    padding-left: 20px;
     padding-right: 20px;
 }
+
 header {
     background-color: #ff6f6f;
     color: #5188d1;
@@ -23,28 +26,32 @@ header {
     padding: 20px 20px 20px 20px;
     padding: 20px;
 }
+
 nav ul {
     list-style: none;
 }
 
 nav li {
-    display: inline; 
+    display: inline;
     margin-right: 20px;
 }
+
 #nav ul#menu li.active {
     background-color: darkred;
-    margin-bottom:5px;
-    border-radius:10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
 }
+
 #nav ul#menu li:hover {
     background-color: darkred;
-    margin-bottom:5px;
-    border-radius:10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
 }
+
 nav a {
     text-decoration: none;
-    font-weight: bold; 
-    color: #ffffff; 
+    font-weight: bold;
+    color: #ffffff;
 }
 
 main {
@@ -63,20 +70,21 @@ main {
     float: left;
 }
 
-.card img{
+.card img {
     max-width: 100%;
     height: 300px;
 }
 
-.card button{
+.card button {
     background-color: #333;
-    color:#fff;
+    color: #fff;
     border: none;
     padding: 8px 16px;
     margin-top: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 .card button:hover {
     background-color: #555;
 }
@@ -94,7 +102,7 @@ footer {
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 02px 4px rgba (0, 0, 0, 0.1);    
+    box-shadow: 02px 4px rgba (0, 0, 0, 0.1);
 }
 
 form {
@@ -118,33 +126,32 @@ form legend {
 }
 
 .input-container label {
-    display:block;
+    display: block;
     margin-bottom: 5px;
     font-weight: bold;
     font-size: 14px;
 }
 
-input[type="text"]
-input[type="date"]
-input[type="number"] {
+input[type="text"] input[type="date"] input[type="number"] {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     color: #555;
 }
+
 .radio-group label {
     display: inline;
     margin-right: 10px;
     font-weight: normal;
 }
 
-.input-check{
+.input-check {
     display: inline-block;
     margin-right: 10px;
 }
 
-.input-check input[type="checkbox"] + label {
+.input-check input[type="checkbox"]+label {
     display: inline-block;
     font-weight: normal;
 }
@@ -174,7 +181,7 @@ button {
     cursor: pointer;
 }
 
-button[type="reset"]{
+button[type="reset"] {
     background-color: #6c757d;
 }
 
